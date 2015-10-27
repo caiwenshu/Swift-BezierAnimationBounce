@@ -15,7 +15,6 @@
 		DB34E7131BCE0F5500D5BE9D /* Swift_BezierAnimationBounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34E7121BCE0F5500D5BE9D /* Swift_BezierAnimationBounceTests.swift */; };
 		DB34E71D1BCE0F8F00D5BE9D /* WSBezierAnimationBounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34E71C1BCE0F8F00D5BE9D /* WSBezierAnimationBounceView.swift */; };
 		DB528B531BDF64A2005ACF4E /* WSBounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB528B521BDF64A2005ACF4E /* WSBounceView.swift */; };
-		DB528B551BDF79B2005ACF4E /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = DB528B541BDF79B2005ACF4E /* demo.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		DB34E7121BCE0F5500D5BE9D /* Swift_BezierAnimationBounceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_BezierAnimationBounceTests.swift; sourceTree = "<group>"; };
 		DB34E71C1BCE0F8F00D5BE9D /* WSBezierAnimationBounceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBezierAnimationBounceView.swift; sourceTree = "<group>"; };
 		DB528B521BDF64A2005ACF4E /* WSBounceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBounceView.swift; sourceTree = "<group>"; };
-		DB528B541BDF79B2005ACF4E /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +81,6 @@
 		DB34E6F91BCE0F5500D5BE9D /* Swift-BezierAnimationBounce */ = {
 			isa = PBXGroup;
 			children = (
-				DB528B541BDF79B2005ACF4E /* demo.mov */,
 				DB528B521BDF64A2005ACF4E /* WSBounceView.swift */,
 				DB34E71C1BCE0F8F00D5BE9D /* WSBezierAnimationBounceView.swift */,
 				DB34E6FC1BCE0F5500D5BE9D /* AppDelegate.swift */,
@@ -202,7 +199,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB34E7021BCE0F5500D5BE9D /* Main.storyboard in Resources */,
-				DB528B551BDF79B2005ACF4E /* demo.mov in Resources */,
 				DB34E7071BCE0F5500D5BE9D /* LaunchScreen.xib in Resources */,
 				DB34E7041BCE0F5500D5BE9D /* Images.xcassets in Resources */,
 			);
