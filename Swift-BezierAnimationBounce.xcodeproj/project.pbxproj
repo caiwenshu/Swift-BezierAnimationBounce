@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB34E6FD1BCE0F5500D5BE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34E6FC1BCE0F5500D5BE9D /* AppDelegate.swift */; };
+		DB34E6FF1BCE0F5500D5BE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34E6FE1BCE0F5500D5BE9D /* ViewController.swift */; };
+		DB34E7021BCE0F5500D5BE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB34E7001BCE0F5500D5BE9D /* Main.storyboard */; };
+		DB34E7041BCE0F5500D5BE9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB34E7031BCE0F5500D5BE9D /* Images.xcassets */; };
+		DB34E7071BCE0F5500D5BE9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB34E7051BCE0F5500D5BE9D /* LaunchScreen.xib */; };
+		DB34E7131BCE0F5500D5BE9D /* Swift_BezierAnimationBounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34E7121BCE0F5500D5BE9D /* Swift_BezierAnimationBounceTests.swift */; };
+		DB34E71D1BCE0F8F00D5BE9D /* WSBezierAnimationBounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34E71C1BCE0F8F00D5BE9D /* WSBezierAnimationBounceView.swift */; };
+		DB528B531BDF64A2005ACF4E /* WSBounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB528B521BDF64A2005ACF4E /* WSBounceView.swift */; };
+		DB528B551BDF79B2005ACF4E /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = DB528B541BDF79B2005ACF4E /* demo.mov */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB34E70D1BCE0F5500D5BE9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB34E6EF1BCE0F5500D5BE9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB34E6F61BCE0F5500D5BE9D;
+			remoteInfo = "Swift-BezierAnimationBounce";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB34E6F71BCE0F5500D5BE9D /* Swift-BezierAnimationBounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-BezierAnimationBounce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB34E6FB1BCE0F5500D5BE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB34E6FC1BCE0F5500D5BE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB34E6FE1BCE0F5500D5BE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB34E7011BCE0F5500D5BE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB34E7031BCE0F5500D5BE9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB34E7061BCE0F5500D5BE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DB34E70C1BCE0F5500D5BE9D /* Swift-BezierAnimationBounceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-BezierAnimationBounceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB34E7111BCE0F5500D5BE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB34E7121BCE0F5500D5BE9D /* Swift_BezierAnimationBounceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_BezierAnimationBounceTests.swift; sourceTree = "<group>"; };
+		DB34E71C1BCE0F8F00D5BE9D /* WSBezierAnimationBounceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBezierAnimationBounceView.swift; sourceTree = "<group>"; };
+		DB528B521BDF64A2005ACF4E /* WSBounceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBounceView.swift; sourceTree = "<group>"; };
+		DB528B541BDF79B2005ACF4E /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB34E6F41BCE0F5500D5BE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB34E7091BCE0F5500D5BE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB34E6EE1BCE0F5500D5BE9D = {
+			isa = PBXGroup;
+			children = (
+				DB34E6F91BCE0F5500D5BE9D /* Swift-BezierAnimationBounce */,
+				DB34E70F1BCE0F5500D5BE9D /* Swift-BezierAnimationBounceTests */,
+				DB34E6F81BCE0F5500D5BE9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB34E6F81BCE0F5500D5BE9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB34E6F71BCE0F5500D5BE9D /* Swift-BezierAnimationBounce.app */,
+				DB34E70C1BCE0F5500D5BE9D /* Swift-BezierAnimationBounceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB34E6F91BCE0F5500D5BE9D /* Swift-BezierAnimationBounce */ = {
+			isa = PBXGroup;
+			children = (
+				DB528B541BDF79B2005ACF4E /* demo.mov */,
+				DB528B521BDF64A2005ACF4E /* WSBounceView.swift */,
+				DB34E71C1BCE0F8F00D5BE9D /* WSBezierAnimationBounceView.swift */,
+				DB34E6FC1BCE0F5500D5BE9D /* AppDelegate.swift */,
+				DB34E6FE1BCE0F5500D5BE9D /* ViewController.swift */,
+				DB34E7001BCE0F5500D5BE9D /* Main.storyboard */,
+				DB34E7031BCE0F5500D5BE9D /* Images.xcassets */,
+				DB34E7051BCE0F5500D5BE9D /* LaunchScreen.xib */,
+				DB34E6FA1BCE0F5500D5BE9D /* Supporting Files */,
+			);
+			path = "Swift-BezierAnimationBounce";
+			sourceTree = "<group>";
+		};
+		DB34E6FA1BCE0F5500D5BE9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB34E6FB1BCE0F5500D5BE9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB34E70F1BCE0F5500D5BE9D /* Swift-BezierAnimationBounceTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB34E7121BCE0F5500D5BE9D /* Swift_BezierAnimationBounceTests.swift */,
+				DB34E7101BCE0F5500D5BE9D /* Supporting Files */,
+			);
+			path = "Swift-BezierAnimationBounceTests";
+			sourceTree = "<group>";
+		};
+		DB34E7101BCE0F5500D5BE9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB34E7111BCE0F5500D5BE9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB34E6F61BCE0F5500D5BE9D /* Swift-BezierAnimationBounce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB34E7161BCE0F5500D5BE9D /* Build configuration list for PBXNativeTarget "Swift-BezierAnimationBounce" */;
+			buildPhases = (
+				DB34E6F31BCE0F5500D5BE9D /* Sources */,
+				DB34E6F41BCE0F5500D5BE9D /* Frameworks */,
+				DB34E6F51BCE0F5500D5BE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-BezierAnimationBounce";
+			productName = "Swift-BezierAnimationBounce";
+			productReference = DB34E6F71BCE0F5500D5BE9D /* Swift-BezierAnimationBounce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB34E70B1BCE0F5500D5BE9D /* Swift-BezierAnimationBounceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB34E7191BCE0F5500D5BE9D /* Build configuration list for PBXNativeTarget "Swift-BezierAnimationBounceTests" */;
+			buildPhases = (
+				DB34E7081BCE0F5500D5BE9D /* Sources */,
+				DB34E7091BCE0F5500D5BE9D /* Frameworks */,
+				DB34E70A1BCE0F5500D5BE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB34E70E1BCE0F5500D5BE9D /* PBXTargetDependency */,
+			);
+			name = "Swift-BezierAnimationBounceTests";
+			productName = "Swift-BezierAnimationBounceTests";
+			productReference = DB34E70C1BCE0F5500D5BE9D /* Swift-BezierAnimationBounceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB34E6EF1BCE0F5500D5BE9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = caiwenshu;
+				TargetAttributes = {
+					DB34E6F61BCE0F5500D5BE9D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DB34E70B1BCE0F5500D5BE9D = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DB34E6F61BCE0F5500D5BE9D;
+					};
+				};
+			};
+			buildConfigurationList = DB34E6F21BCE0F5500D5BE9D /* Build configuration list for PBXProject "Swift-BezierAnimationBounce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB34E6EE1BCE0F5500D5BE9D;
+			productRefGroup = DB34E6F81BCE0F5500D5BE9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB34E6F61BCE0F5500D5BE9D /* Swift-BezierAnimationBounce */,
+				DB34E70B1BCE0F5500D5BE9D /* Swift-BezierAnimationBounceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB34E6F51BCE0F5500D5BE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34E7021BCE0F5500D5BE9D /* Main.storyboard in Resources */,
+				DB528B551BDF79B2005ACF4E /* demo.mov in Resources */,
+				DB34E7071BCE0F5500D5BE9D /* LaunchScreen.xib in Resources */,
+				DB34E7041BCE0F5500D5BE9D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB34E70A1BCE0F5500D5BE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB34E6F31BCE0F5500D5BE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34E71D1BCE0F8F00D5BE9D /* WSBezierAnimationBounceView.swift in Sources */,
+				DB34E6FF1BCE0F5500D5BE9D /* ViewController.swift in Sources */,
+				DB528B531BDF64A2005ACF4E /* WSBounceView.swift in Sources */,
+				DB34E6FD1BCE0F5500D5BE9D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB34E7081BCE0F5500D5BE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34E7131BCE0F5500D5BE9D /* Swift_BezierAnimationBounceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB34E70E1BCE0F5500D5BE9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB34E6F61BCE0F5500D5BE9D /* Swift-BezierAnimationBounce */;
+			targetProxy = DB34E70D1BCE0F5500D5BE9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB34E7001BCE0F5500D5BE9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB34E7011BCE0F5500D5BE9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB34E7051BCE0F5500D5BE9D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB34E7061BCE0F5500D5BE9D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB34E7141BCE0F5500D5BE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB34E7151BCE0F5500D5BE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB34E7171BCE0F5500D5BE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-BezierAnimationBounce/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB34E7181BCE0F5500D5BE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-BezierAnimationBounce/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB34E71A1BCE0F5500D5BE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-BezierAnimationBounceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-BezierAnimationBounce.app/Swift-BezierAnimationBounce";
+			};
+			name = Debug;
+		};
+		DB34E71B1BCE0F5500D5BE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-BezierAnimationBounceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-BezierAnimationBounce.app/Swift-BezierAnimationBounce";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB34E6F21BCE0F5500D5BE9D /* Build configuration list for PBXProject "Swift-BezierAnimationBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB34E7141BCE0F5500D5BE9D /* Debug */,
+				DB34E7151BCE0F5500D5BE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB34E7161BCE0F5500D5BE9D /* Build configuration list for PBXNativeTarget "Swift-BezierAnimationBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB34E7171BCE0F5500D5BE9D /* Debug */,
+				DB34E7181BCE0F5500D5BE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB34E7191BCE0F5500D5BE9D /* Build configuration list for PBXNativeTarget "Swift-BezierAnimationBounceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB34E71A1BCE0F5500D5BE9D /* Debug */,
+				DB34E71B1BCE0F5500D5BE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB34E6EF1BCE0F5500D5BE9D /* Project object */;
+}
